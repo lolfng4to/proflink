@@ -1,12 +1,7 @@
 import telebot
 from telebot import types # кнопки
-from string import Template
+from string import Templ
 
-token = '1781660823:AAGxY3ZNoqwX-jVex5zj9livkXmd_IJpX-c'
-chat_id = '698951381'
-bot = telebot.TeleBot(config.token)
-
-user_dict = {}
 
 class User:
     def __init__(self, city):
